@@ -174,3 +174,8 @@ respect-ignore-files = true
 
 [tool.ty.environment]
 python = "./.venv"
+
+
+[[tool.uv.index]]
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+default = true
