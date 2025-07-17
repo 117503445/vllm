@@ -27,7 +27,6 @@ def load_module_from_path(module_name, path):
     spec.loader.exec_module(module)
     return module
 
-
 ROOT_DIR = Path(__file__).parent
 logger = logging.getLogger(__name__)
 

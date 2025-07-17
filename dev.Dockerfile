@@ -4,3 +4,5 @@ FROM registry.ghi.117503445.top/117503445/dev@sha256:c23f9b812eccddcf46a30a3f827
 # protobuf: required by onnx
 
 RUN pacman -Syu --noconfirm uv protobuf nvidia-container-toolkit
+
+RUN pacman -Syu --noconfirm python-pip
